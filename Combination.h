@@ -2,7 +2,7 @@
 #define COMBINATION_H
 #include <iostream>
 #include <assert.h>
-#include "color.h"
+#include "Color.h"
 
 class Combination
 {

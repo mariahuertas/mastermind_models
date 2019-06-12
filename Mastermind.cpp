@@ -1,4 +1,4 @@
-#include "mastermind.h"
+#include "Mastermind.h"
 
 MasterMind::MasterMind(){
     this->secretCombination = new SecretCombination();

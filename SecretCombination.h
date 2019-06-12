@@ -3,7 +3,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctype.h>
-#include "combination.h"
+#include "Combination.h"
 
 class SecretCombination: public Combination
 {

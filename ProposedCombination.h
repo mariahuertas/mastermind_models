@@ -3,9 +3,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctype.h>
-#include "secretcombination.h"
-#include "result.h"
-#include "combination.h"
+#include "SecretCombination.h"
+#include "Result.h"
+#include "Combination.h"
 
 class ProposedCombination : public Combination
 {

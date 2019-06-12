@@ -1,4 +1,4 @@
-#include "proposedcombination.h"
+#include "ProposedCombination.h"
 
 ProposedCombination::ProposedCombination():Combination(){
     this->secretCombination = new SecretCombination();
