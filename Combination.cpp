@@ -14,5 +14,6 @@ char *Combination::getCombination(){
 }
 
 void Combination::setCombination(char *combination){
+    assert(combination!= nullptr);
     this->combination = combination;
 }

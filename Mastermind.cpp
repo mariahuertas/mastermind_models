@@ -13,14 +13,14 @@ MasterMind::~MasterMind(){
 void MasterMind::play(){
     int iterations = 0;
     this->secretCombination->generateMisteryColours();
-    std::cout << "Bienvenido al mastermind. Por cada ronda, ingresa 4 colores"<< std::endl;
+    std::cout << "Welcome. Each roud, insert 4 colors"<< std::endl;
     do{
         this->proposedCombination[iterations] = new ProposedCombination();
         this->proposedCombination[iterations]->read();
         this->proposedCombination[iterations]->calculateResult(secretCombination);
         print(iterations);
         if (this->proposedCombination[iterations]->isWinner()){
-            std::cout << "ERES GANADOR" <<std::endl;
+            std::cout << "WINNER" <<std::endl;
         }
         iterations++;
     } while (!this->proposedCombination[iterations-1]->isWinner() && iterations < MAX_PROPOSED_COMBINATION);

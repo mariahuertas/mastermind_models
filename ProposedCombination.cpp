@@ -37,6 +37,7 @@ void ProposedCombination::print(){
 }
 
 void ProposedCombination::calculateResult(SecretCombination *secretCombination){
+    assert(secretCombination!= nullptr);
     char *combination = secretCombination->getCombination();
     for (int i=0; i<this->colors; i++){
     if (combination[i]==this->combination[i])
