@@ -6,16 +6,16 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(mastermind_objects
-        Color.cpp
-        Color.h
-        Combination.cpp
-        Combination.h
+        models/Color.cpp
+        models/Color.h
+        models/Combination.cpp
+        models/Combination.h
         main.cpp
         Mastermind.cpp
         Mastermind.h
-        ProposedCombination.cpp
-        ProposedCombination.h
-        Result.cpp
-        Result.h
-        SecretCombination.cpp
-        SecretCombination.h)
+        models/ProposedCombination.cpp
+        models/ProposedCombination.h
+        models/Result.cpp
+        models/Result.h
+        models/SecretCombination.cpp
+        models/SecretCombination.h)

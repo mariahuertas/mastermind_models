@@ -1,7 +1,7 @@
 #ifndef MASTERMIND_H
 #define MASTERMIND_H
-#include "ProposedCombination.h"
-#include "SecretCombination.h"
+#include "models/ProposedCombination.h"
+#include "models/SecretCombination.h"
 #include <iostream>
 #include <cstdlib>
 #include <ctype.h>
